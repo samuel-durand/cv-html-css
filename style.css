@@ -21,7 +21,11 @@ body {
   text-decoration: none;
 }
 
+.cursor {
+  cursor: pointer;
+}
 .dropdown {
+  cursor: pointer;
   justify-content: left;
   align-items: center;
   position: relative;
@@ -33,14 +37,39 @@ body {
   display: none;
   position: absolute;
   border-radius: 5px;
-  background-color: #472D2D;
+  background-color: #472D2D;;
   min-width: 160px;
   z-index: 1;
 }
 
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 0, 0);
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: green;
+}
+
 ul {
+  
   list-style-type: none;
 }
+
+ul li a:link {
+  color: aqua;
+}
+
+
+
 
 .dropdown:hover .dropdown-content{
   display: block;
@@ -78,6 +107,8 @@ footer .link2 {
   color: white;
   text-decoration: none;
 }
+
+
 
 
 
